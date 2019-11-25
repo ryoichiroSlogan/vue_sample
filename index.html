@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Vue.js App</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+iii
+{{message}}
+  <div id="app">
+   <p>{{message}}</p>
+   <ol>
+     <li v-for="item in list"> {{ item }} </li>
+   </ol>
+   <button v-on:click="handleClick"> Click </button>
+   <input v-model="message">
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
